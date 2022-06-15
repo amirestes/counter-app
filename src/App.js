@@ -22,7 +22,7 @@ class App extends Component {
   };
 
   handleReset = () => {
-    const counters = this.state.counters.map((c) => {
+    const counters = this.state.counters.map (c => {
       c.value = 0;
       return c;
     });
